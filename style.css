@@ -9,6 +9,13 @@
     text-align: center;
 }
 
+.splash img {
+    width: 30vw;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
 .splash h1 {
     color: white;
     font-size: 10vw;
