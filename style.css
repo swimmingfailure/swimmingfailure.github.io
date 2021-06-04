@@ -1,0 +1,16 @@
+.splash {
+    width: 100vw;
+    height: 100vh;
+    background: #111;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.splash h1 {
+    color: white;
+    font-size: 10vw;
+    font-family: 'Libre Barcode 128 Text', cursive;
+}
