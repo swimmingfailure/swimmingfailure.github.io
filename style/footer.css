@@ -1,0 +1,13 @@
+#footer {
+    position: fixed;
+    bottom: 0;
+    z-index: 1000;
+    width: 100vw;
+    text-align: center;
+}
+
+#footer img {
+    width: 50px;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
