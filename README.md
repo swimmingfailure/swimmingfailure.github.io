@@ -1,4 +1,4 @@
-It's a website, what do you want from me? 
+It's a website, waddya want from me? 
 
 <!--
 **swimmingfailure/swimmingfailure** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
