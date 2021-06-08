@@ -15,11 +15,13 @@ body {
 }
 
 .track {
+    display: inline-block;
+    margin: 5px;
     width: 20vw;
     height: 20vw;
-    margin: auto;
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    box-shadow: 0px 0px 30px 0px black;
 }
 
 .track:hover {
