@@ -17,8 +17,5 @@
 }
 
 .splash h1 {
-    color: var(--white);
     font-size: clamp(20px, 6vw, 150px);
-    font-family: sans-serif;
-    /*font-family: 'Libre Barcode 128 Text', cursive;*/
 }

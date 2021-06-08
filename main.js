@@ -7,6 +7,7 @@ $(function() {
 
 
 function loadBars() {
-    $("#nav").load("template/nav.html");
-    $("#footer").load("template/footer.html");
+    $("#nav").load("/template/nav.html");
+    $("#footer").load("/template/footer.html");
+    $("head").load("/template/head.html");
 }

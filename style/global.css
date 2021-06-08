@@ -6,4 +6,15 @@
 
 html {
     background: var(--black);
+    color: var(--white);
+    font-family: 'Sen', sans-serif;
+    /*font-family: 'Libre Barcode 128 Text', cursive;*/
+}
+
+a {
+    color: var(--white);
+}
+
+a:hover {
+   text-decoration: underline; 
 }
