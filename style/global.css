@@ -24,6 +24,7 @@ h1 {
 }
 
 #nav {
+    background: var(--black);
     position: fixed;
     top: 0px;
     z-index: 1000;

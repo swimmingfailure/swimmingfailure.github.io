@@ -1,4 +1,4 @@
-JSON_FILEPATH = "/music/music.json";
+JSON_FILEPATH = "/music/!music.json";
 MUSIC_FOLDERPATH = "/music/";
 TRACKS_DIV = "#tracks";
 AUDIO_ELEM = document.getElementById("audio");
