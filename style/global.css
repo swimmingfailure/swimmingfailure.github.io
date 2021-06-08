@@ -51,3 +51,4 @@ a:hover {
     width: 30px;
     margin-left: clamp(10px, 2vw, 20px);
     margin-right: clamp(10px, 2vw, 20px);
+}
