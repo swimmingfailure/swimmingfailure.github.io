@@ -1,5 +1,9 @@
 ### Hey
 
+This is my GitHub. It has some code.
+
+[This](https://swimmingfailure.com/) is my website. It has other stuff. 
+
 <!--
 **swimmingfailure/swimmingfailure** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
