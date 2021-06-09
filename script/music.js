@@ -12,22 +12,18 @@ $(function() {
             parser.href = AUDIO_ELEM.src;
             // Switch tracks when different track is clicked
             if (parser.pathname != $(this).data("track")) {
-                $(`[data-track="${parser.pathname}"]`).css({"outline": "0px",
-                                                            "outline-offset": "0px"});
+                clearCSS($(`[data-track="${parser.pathname}"]`));
                 AUDIO_ELEM.src = $(this).data("track");
                 AUDIO_ELEM.play();
-                $(this).css({"outline": "solid var(--white) 6px",
-                             "outline-offset": "-5px"});
+                activeCSS($(this));
             // Play clicked track if it is paused
             } else if (AUDIO_ELEM.paused) {
                 AUDIO_ELEM.play();
-                $(this).css({"outline": "solid var(--white) 6px",
-                             "outline-offset": "-5px"});
+                activeCSS($(this));
             // Pause clicked track if it is playing
             } else {
                 AUDIO_ELEM.pause();
-                $(this).css({"outline": "solid var(--gray) 6px",
-                             "outline-offset": "-5px"});
+                pausedCSS($(this));
             }
         });
     });
@@ -46,4 +42,16 @@ function makeTrackElems(json) {
 
         $(TRACKS_DIV).append(html);
     }
+}
+
+function activeCSS(elem) {
+    elem.css({"outline": "solid var(--black) 5px", "outline-offset": "-10px", "border": "solid var(--white) 5px"});
+}
+
+function pausedCSS(elem) {
+    elem.css({"outline": "solid var(--gray) 5px", "outline-offset": "-10px", "border": "solid var(--black) 5px"});
+}
+
+function clearCSS(elem) {
+    elem.css({"outline": "0px", "outline-offset": "0px", "border": "solid transparent 5px"});
 }
