@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+}
+
+h2:nth-of-type(1) {
+    margin-top: 100px;
+}
+
+.logo {
+    margin-top: 10px;
+    width: 100px;
+}
+
+h2:nth-of-type(2) {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+.genreblock {
+    width: clamp(100px, 70vw, 1000px);
+    border-radius: 20px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.haiku {
+    border: solid white 2px;
+    border-radius: 10px;
+    width: 260px;
+    display: inline-block;
+    margin: 20px;
+    padding: 50px;
+    line-height: 30px;
+}
+
+
+.haiku .title {
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: 3px;
+    line-height: 10px;
+
+}
+
+.haiku .date {
+    font-size: 12px;
+}
