@@ -21,31 +21,53 @@ h3 {
 }
 
 .genreblock {
-    width: clamp(100px, 70vw, 1000px);
-    border-radius: 20px;
+    width: clamp(100px, 70vw, 1500px);
     margin: auto;
     margin-bottom: 30px;
 }
 
-.haiku {
+.piece {
     border: solid white 2px;
     border-radius: 10px;
-    width: 260px;
     display: inline-block;
     margin: 20px;
     padding: 50px;
     line-height: 30px;
+    box-shadow: 0px 0px 25px 0px black;
+    background: var(--black);
 }
 
+.haiku {
+    width: 260px;
+}
 
-.haiku .title {
+.story {
+    width: 500px;
+    height: 650px;
+    overflow: scroll;
+    text-align: justify;
+    text-indent: 40px;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.story::-webkit-scrollbar {
+    display: none;
+  }
+
+.title {
     font-weight: 800;
     font-size: 20px;
     margin-bottom: 3px;
-    line-height: 10px;
-
+    text-align: center;
+    line-height: 25px;
+    text-indent: 0px;
 }
 
-.haiku .date {
+.date {
     font-size: 12px;
+    text-align: center;
+    text-indent: 0px;
+    margin-top: -10px;
 }
