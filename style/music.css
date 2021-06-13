@@ -56,6 +56,7 @@ h2:nth-of-type(2) {
     cursor: pointer;
 }
 
+
 .track p {
     background: var(--black);
     width: -moz-fit-content;
@@ -64,6 +65,16 @@ h2:nth-of-type(2) {
     margin-right: auto;
     padding: 5px;
     margin-bottom: 5px;
+    opacity: 0%;
+    -o-transition: opacity 0.5s ease;
+    -ms-transition: opacity 0.5s ease;
+    -moz-transition: opacity 0.5s ease;
+    -webkit-transition: opacity 0.5s ease;
+    transition: opacity 0.5s ease;
+}
+
+.track:hover p, .track.active p, .track.paused.p {
+    opacity: 100%;
 }
 
 .track .artist {
@@ -79,12 +90,14 @@ h2:nth-of-type(2) {
     outline: solid var(--white) 5px;
     outline-offset: -5px;
 }
-.track.active:after {
-    outline: solid var(--black) 5px;
-    outline-offset: -10px;
-}
 
 .track.paused {
     outline: solid var(--gray) 5px;
     outline-offset: -5px;
+}
+
+.track.active:before, .track.paused:before {
+    outline: solid var(--black) 5px;
+    outline-offset: -10px;
+    z-index: 1000;
 }
