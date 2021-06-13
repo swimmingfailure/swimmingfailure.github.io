@@ -18,13 +18,14 @@ h2:nth-of-type(2) {
 #tracks {
     margin: auto;
     margin-top: 25px;
+    width: clamp(100px, 70vw, 1300px);
 }
 
 .track {
     display: inline-flex;
     justify-content: center;
     flex-direction: column;
-    margin: 2px;
+    margin: 10px;
     width: 20vw;
     height: 20vw;
     max-width: 300px;
@@ -32,10 +33,9 @@ h2:nth-of-type(2) {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     color: var(--white);
+    font-size: 20px;
     font-weight: 800;
-    text-shadow: 2px 2px 5px black;
-    border-radius: 5px;
-    border: solid transparent 5px;
+    border-radius: 10px;
     position: relative;
     vertical-align: top;
 }
@@ -54,4 +54,37 @@ h2:nth-of-type(2) {
 
 .track:hover {
     cursor: pointer;
+}
+
+.track p {
+    background: var(--black);
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.track .artist {
+    font-weight: 500;
+}
+
+.track .date {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.track.active {
+    outline: solid var(--white) 5px;
+    outline-offset: -5px;
+}
+.track.active:after {
+    outline: solid var(--black) 5px;
+    outline-offset: -10px;
+}
+
+.track.paused {
+    outline: solid var(--gray) 5px;
+    outline-offset: -5px;
 }

@@ -1,0 +1,73 @@
+body {
+    text-align: center;
+}
+
+h2:nth-of-type(1) {
+    margin-top: 100px;
+}
+
+.logo {
+    margin-top: 10px;
+    width: 100px;
+}
+
+h2:nth-of-type(2) {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+.genreblock {
+    width: clamp(100px, 70vw, 1500px);
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.piece {
+    border: solid white 2px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 20px;
+    padding: 50px;
+    line-height: 30px;
+    box-shadow: 0px 0px 25px 0px black;
+    background: var(--black);
+}
+
+.haiku {
+    width: 260px;
+}
+
+.story {
+    width: 500px;
+    height: 650px;
+    overflow: scroll;
+    text-align: justify;
+    text-indent: 40px;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.story::-webkit-scrollbar {
+    display: none;
+  }
+
+.title {
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: 3px;
+    text-align: center;
+    line-height: 25px;
+    text-indent: 0px;
+}
+
+.date {
+    font-size: 12px;
+    text-align: center;
+    text-indent: 0px;
+    margin-top: -10px;
+}

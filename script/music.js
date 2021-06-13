@@ -12,18 +12,20 @@ $(function() {
             parser.href = AUDIO_ELEM.src;
             // Switch tracks when different track is clicked
             if (parser.pathname != $(this).data("track")) {
-                clearCSS($(`[data-track="${parser.pathname}"]`));
+                $(`[data-track="${parser.pathname}"]`).removeClass("active paused");
+                $(this).addClass("active");
                 AUDIO_ELEM.src = $(this).data("track");
                 AUDIO_ELEM.play();
-                activeCSS($(this));
             // Play clicked track if it is paused
             } else if (AUDIO_ELEM.paused) {
                 AUDIO_ELEM.play();
-                activeCSS($(this));
+                $(this).removeClass("paused");
+                $(this).addClass("active");
             // Pause clicked track if it is playing
             } else {
                 AUDIO_ELEM.pause();
-                pausedCSS($(this));
+                $(this).removeClass("active");
+                $(this).addClass("paused");
             }
         });
     });
@@ -35,23 +37,11 @@ function makeTrackElems(json) {
         
         let html = 
         `<div class="track" data-track="${filepath}.mp3" style="background-image: url(${filepath}.jpg)">
-            <p>${json[i].title}</p>
-            <p>${json[i].artist}</p>
-            <p>${json[i].date}</p>
+            <p class="title">${json[i].title}</p>
+            <p class="artist">${json[i].artist}</p>
+            <p class="date">${json[i].date}</p>
         </div>`
 
         $(TRACKS_DIV).append(html);
     }
-}
-
-function activeCSS(elem) {
-    elem.css({"outline": "solid var(--black) 5px", "outline-offset": "-10px", "border": "solid var(--white) 5px"});
-}
-
-function pausedCSS(elem) {
-    elem.css({"outline": "solid var(--gray) 5px", "outline-offset": "-10px", "border": "solid var(--black) 5px"});
-}
-
-function clearCSS(elem) {
-    elem.css({"outline": "0px", "outline-offset": "0px", "border": "solid transparent 5px"});
 }
