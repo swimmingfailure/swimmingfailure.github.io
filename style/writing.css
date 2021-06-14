@@ -79,6 +79,11 @@ h3 {
     text-indent: 0px;
 }
 
+.footnote {
+    font-size: 10px;
+    vertical-align: super;
+}
+
 
 .section, .section-head {
     text-indent: 0px;
