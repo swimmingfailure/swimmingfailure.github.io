@@ -1,158 +1,162 @@
-[
-    {
-        "title": "Intrusion",
-        "artist": "Swimming Failure",
-        "date": "Feb 2021"
-    },
-    {
-        "title": "So Tired",
-        "artist": "Swimming Failure",
-        "date": "Jul 2020",
-        "feat": "Red Sea Flora"
-    },
-    {
-        "title": "Sad Cartoon",
-        "artist": "Swimming Failure",
-        "date": "Feb 2019"
-    },
-    {
-        "title": "Snow Tubing",
-        "artist": "Swimming Failure",
-        "date": "Jan 2019"
-    },
-    {
-        "title": "Too Loud",
-        "artist": "Swimming Failure",
-        "date": "Oct 2012"
-    },
-    {
-        "title": "Never Meant",
-        "artist": "American Football",
-        "date": "Jan 2021"
-    },
-    {
-        "title": "Kept",
-        "artist": "Movements",
-        "date": "Aug 2020"
-    },
-    {
-        "title": "The Hive",
-        "artist": "In Flames",
-        "date": "June 2020"
-    },
-    {
-        "title": "Empty Glass",
-        "artist": "Defeater",
-        "date": "May 2020"
-    },
-    {
-        "title": "Devotion and Desire",
-        "artist": "Bayside",
-        "date": "May 2020"
-    },
-    {
-        "title": "Montauk",
-        "artist": "Bayside",
-        "date": "May 2020"
-    },
-    {
-        "title": "Carol of the Bells",
-        "artist": "August Burns Red",
-        "date": "Dec 2019"
-    },
-    {
-        "title": "Falling in love Again",
-        "artist": "Joyce Manor",
-        "date": "Dec 2019"
-    },
-    {
-        "title": "The Obituaries",
-        "artist": "The Menzingers",
-        "date": "Aug 2018"
-    },
-    {
-        "title": "Your Graduation",
-        "artist": "Modern Baseball",
-        "date": "Nov 2017"
-    },
-    {
-        "title": "Constant Headache",
-        "artist": "Joyce Manor",
-        "date": "Oct 2017"
-    },
-    {
-        "title": "Yer Killin Me",
-        "artist": "Remo Drive",
-        "date": "Mar 2017"
-    },
-    {
-        "title": "I Don't Wanna Be Me",
-        "artist": "Type O Negative",
-        "date": "Mar 2017"
-    },
-    {
-        "title": "Your Deep Rest",
-        "artist": "The Hotelier",
-        "date": "Mar 2017"
-    },
-    {
-        "title": "The Artist",
-        "artist": "Old Gray",
-        "date": "Mar 2017"
-    },
-    {
-        "title": "Separations",
-        "artist": "Diarrhea Planet",
-        "date": "Mar 2017"
-    },
-    {
-        "title": "Milk Duds",
-        "artist": "Lady Lamb",
-        "date": "Mar 2017"
-    },
-    {
-        "title": "Nintendo 64",
-        "artist": "Alex G",
-        "date": "Mar 2017"
-    },
-    {
-        "title": "Dead on Arrival",
-        "artist": "Fall Out Boy",
-        "date": "Mar 2017"
-    },
-    {
-        "title": "Blessed Burden",
-        "artist": "Defeater",
-        "date": "Feb 2017"
-    },
-    {
-        "title": "Hazleton",
-        "artist": "Justin Vernon",
-        "date": "Dec 2014"
-    },
-    {
-        "title": "Go Forth and Die",
-        "artist": "Dethklok",
-        "date": "May 2014"
-    },
-    {
-        "title": "More Than Life",
-        "artist": "Whitley",
-        "date": "Apr 2013"
-    },
-    {
-        "title": "Jesus Christ",
-        "artist": "Brand New",
-        "date": "Nov 2012"
-    },
-    {
-        "title": "Feel So Close",
-        "artist": "Calvin Harris",
-        "date": "Oct 2012"
-    },
-    {
-        "title": "Message in a Bottle",
-        "artist": "The Police",
-        "date": "Jun 2012"
-    }
-]
+{
+    "originals": [
+        {
+            "title": "Intrusion",
+            "artist": "Swimming Failure",
+            "date": "Feb 2021"
+        },
+        {
+            "title": "So Tired",
+            "artist": "Swimming Failure",
+            "date": "Jul 2020",
+            "feat": "Red Sea Flora"
+        },
+        {
+            "title": "Sad Cartoon",
+            "artist": "Swimming Failure",
+            "date": "Feb 2019"
+        },
+        {
+            "title": "Snow Tubing",
+            "artist": "Swimming Failure",
+            "date": "Jan 2019"
+        },
+        {
+            "title": "Too Loud",
+            "artist": "Swimming Failure",
+            "date": "Oct 2012"
+        }
+    ],
+    "covers": [
+        {
+            "title": "Never Meant",
+            "artist": "American Football",
+            "date": "Jan 2021"
+        },
+        {
+            "title": "Kept",
+            "artist": "Movements",
+            "date": "Aug 2020"
+        },
+        {
+            "title": "The Hive",
+            "artist": "In Flames",
+            "date": "June 2020"
+        },
+        {
+            "title": "Empty Glass",
+            "artist": "Defeater",
+            "date": "May 2020"
+        },
+        {
+            "title": "Devotion and Desire",
+            "artist": "Bayside",
+            "date": "May 2020"
+        },
+        {
+            "title": "Montauk",
+            "artist": "Bayside",
+            "date": "May 2020"
+        },
+        {
+            "title": "Carol of the Bells",
+            "artist": "August Burns Red",
+            "date": "Dec 2019"
+        },
+        {
+            "title": "Falling in love Again",
+            "artist": "Joyce Manor",
+            "date": "Dec 2019"
+        },
+        {
+            "title": "The Obituaries",
+            "artist": "The Menzingers",
+            "date": "Aug 2018"
+        },
+        {
+            "title": "Your Graduation",
+            "artist": "Modern Baseball",
+            "date": "Nov 2017"
+        },
+        {
+            "title": "Constant Headache",
+            "artist": "Joyce Manor",
+            "date": "Oct 2017"
+        },
+        {
+            "title": "Yer Killin Me",
+            "artist": "Remo Drive",
+            "date": "Mar 2017"
+        },
+        {
+            "title": "I Don't Wanna Be Me",
+            "artist": "Type O Negative",
+            "date": "Mar 2017"
+        },
+        {
+            "title": "Your Deep Rest",
+            "artist": "The Hotelier",
+            "date": "Mar 2017"
+        },
+        {
+            "title": "The Artist",
+            "artist": "Old Gray",
+            "date": "Mar 2017"
+        },
+        {
+            "title": "Separations",
+            "artist": "Diarrhea Planet",
+            "date": "Mar 2017"
+        },
+        {
+            "title": "Milk Duds",
+            "artist": "Lady Lamb",
+            "date": "Mar 2017"
+        },
+        {
+            "title": "Nintendo 64",
+            "artist": "Alex G",
+            "date": "Mar 2017"
+        },
+        {
+            "title": "Dead on Arrival",
+            "artist": "Fall Out Boy",
+            "date": "Mar 2017"
+        },
+        {
+            "title": "Blessed Burden",
+            "artist": "Defeater",
+            "date": "Feb 2017"
+        },
+        {
+            "title": "Hazleton",
+            "artist": "Justin Vernon",
+            "date": "Dec 2014"
+        },
+        {
+            "title": "Go Forth and Die",
+            "artist": "Dethklok",
+            "date": "May 2014"
+        },
+        {
+            "title": "More Than Life",
+            "artist": "Whitley",
+            "date": "Apr 2013"
+        },
+        {
+            "title": "Jesus Christ",
+            "artist": "Brand New",
+            "date": "Nov 2012"
+        },
+        {
+            "title": "Feel So Close",
+            "artist": "Calvin Harris",
+            "date": "Oct 2012"
+        },
+        {
+            "title": "Message in a Bottle",
+            "artist": "The Police",
+            "date": "Jun 2012"
+        }
+    ]
+}

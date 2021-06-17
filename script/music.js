@@ -1,6 +1,7 @@
 JSON_FILEPATH = "/music/!music.json";
 MUSIC_FOLDERPATH = "/music/";
-TRACKS_DIV = "#tracks";
+ORIGINALS_DIV = "#originals";
+COVERS_DIV = "#covers";
 AUDIO_ELEM = document.getElementById("audio");
 
 $(function() {
@@ -32,16 +33,28 @@ $(function() {
 });
 
 function makeTrackElems(json) {
-    for (let i in json) {
-        let filepath = MUSIC_FOLDERPATH + json[i].title.toLowerCase().replace(/\s/g, '').replace(/'/g, '');
-        
-        let html = 
-        `<div class="track" data-track="${filepath}.mp3" style="background-image: url(${filepath}.jpg)">
-            <p class="title">${json[i].title}</p>
-            <p class="artist">${json[i].artist}</p>
-            <p class="date">${json[i].date}</p>
-        </div>`
+    let originals = json["originals"];
+    let covers = json["covers"];
 
-        $(TRACKS_DIV).append(html);
+    for (let i in originals) {
+        let filepath = MUSIC_FOLDERPATH + originals[i].title.toLowerCase().replace(/\s/g, '').replace(/'/g, '');
+        let html = 
+            `<div class="track" data-track="${filepath}.mp3" style="background-image: url(${filepath}.jpg)">
+                <p class="title">${originals[i].title}</p>
+                <p class="artist">${originals[i].artist}</p>
+                <p class="date">${originals[i].date}</p>
+            </div>`
+        $(ORIGINALS_DIV).append(html);
+    }
+
+    for (let i in covers) {
+        let filepath = MUSIC_FOLDERPATH + covers[i].title.toLowerCase().replace(/\s/g, '').replace(/'/g, '');
+        let html = 
+            `<div class="track" data-track="${filepath}.mp3" style="background-image: url(${filepath}.jpg)">
+                <p class="title">${covers[i].title}</p>
+                <p class="artist">${covers[i].artist}</p>
+                <p class="date">${covers[i].date}</p>
+            </div>`
+        $(COVERS_DIV).append(html);
     }
 }

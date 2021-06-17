@@ -2,14 +2,6 @@ body {
     text-align: center;
 }
 
-h2:nth-of-type(1) {
-    margin-top: 100px;
-}
-
-h2:nth-of-type(2) {
-    font-size: 50px;
-}
-
 .logo {
     margin-top: 10px;
     width: 100px;
