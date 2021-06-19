@@ -26,4 +26,10 @@
     .track .date {
         font-size: 10px;
     }
+
+    .story {
+        width: 75vw;
+        height: 400px;
+        font-size: 14px;
+    }
   }
