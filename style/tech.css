@@ -40,8 +40,8 @@ h3 {
 }
 
 iframe {
-    width: clamp(200px, 140vw, 1600px);
-    height: clamp(200px, 120vw, 1200px);
+    width: 200%;
+    height: 200%;
 }
 
 iframe {
