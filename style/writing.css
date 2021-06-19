@@ -12,16 +12,18 @@ h2:nth-of-type(1) {
 }
 
 h2:nth-of-type(2) {
+    margin-top: 0px;
     font-size: 50px;
     margin-bottom: 30px;
 }
 
 h3 {
     font-size: 30px;
+    margin-bottom: 10px;
 }
 
 .genreblock {
-    width: clamp(100px, 70vw, 1500px);
+    width: clamp(100vw, 1500px);
     margin: auto;
     margin-bottom: 30px;
 }
@@ -30,8 +32,8 @@ h3 {
     border: solid white 2px;
     border-radius: 10px;
     display: inline-block;
-    margin: 20px;
-    padding: 50px;
+    margin: 10px;
+    padding: 30px;
     line-height: 30px;
     box-shadow: 0px 0px 25px 0px black;
     background: var(--black);
@@ -42,8 +44,8 @@ h3 {
 }
 
 .story {
-    width: 500px;
-    height: 650px;
+    width: 400px;
+    height: 550px;
     overflow: scroll;
     text-align: justify;
     text-indent: 40px;

@@ -18,8 +18,8 @@ body {
     justify-content: center;
     flex-direction: column;
     margin: 10px;
-    width: clamp(250px, 20vw, 800px);
-    height: clamp(250px, 20vw,800px);
+    width: clamp(200px, 20vw, 800px);
+    height: clamp(200px, 20vw,800px);
     max-width: 300px;
     max-height: 300px;
     background-repeat: no-repeat;
@@ -65,7 +65,7 @@ body {
     transition: opacity 0.5s ease;
 }
 
-.track:hover p, .track.active p, .track.paused.p {
+.track:hover p, .track.active p, .track.paused p {
     opacity: 100%;
 }
 

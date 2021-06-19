@@ -1,0 +1,29 @@
+@media only screen and (max-width: 500px) {
+    #nav li {
+        font-size: 16px;
+        top: 17px;
+        margin-left: 2vw;
+        margin-right: 2vw;
+    }
+
+    .track {
+        margin: 6px;
+        width: 100px;
+        height: 100px;
+        font-size: 20px;
+        font-weight: 800;
+    }
+
+    .track p {
+        padding: 2px;
+        margin-bottom: 0px;
+    }
+ 
+    .track .artist, .track .title {
+        font-size: 12px;
+    }
+
+    .track .date {
+        font-size: 10px;
+    }
+  }
